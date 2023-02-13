@@ -1,0 +1,15 @@
+
+.country{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(2, 200px);
+    column-gap: 10px;
+    row-gap: 15px;
+    width: 98%;
+    min-height: auto;
+    margin-left: 2%;
+    margin-top: 2%;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}

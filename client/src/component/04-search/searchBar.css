@@ -1,0 +1,52 @@
+ .ConteinerSearch{
+    margin-top: 3%;
+    display: inline-grid;
+    grid-template-columns: 45% [x1] 45% [x2];
+    grid-template-rows: 40px [y1] 35px [y2];
+    justify-items: center;
+    justify-content: center;
+}
+.input{
+    position: absolute;
+    height: 30px;
+    width: 35%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    grid-column: x1/x2;
+    background-color: rgba(31, 61, 233, 0.774);
+    border: 2px solid #007bff;
+}
+.button{
+    position: absolute;
+    margin-left:33%;
+    background-image: url("../../img/search.png");
+    background-position: center top;
+    background-size: 80% auto;
+    height: 30px;
+    width: 38px;
+    border-radius: 12px;
+    background-color: rgba(31, 61, 233, 0.774);
+    border: 2px solid #007bff;
+    cursor: pointer;
+}
+.activity{
+    grid-row: y1;
+    border-radius: 12px;
+    margin-left: 60%;
+    background-color: rgba(31, 61, 233, 0.774);
+    border: 2px solid #007bff;
+    color: white;
+   
+    
+}
+.activity :link{
+    text-decoration: none;
+}
+.reset{
+    grid-row: y1;
+    border-radius: 12px;
+    margin-right: 60%;
+    background-color: rgba(31, 61, 233, 0.774);
+    border: 2px solid #007bff;
+    cursor: pointer;
+}
